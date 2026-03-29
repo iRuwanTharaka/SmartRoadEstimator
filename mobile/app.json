@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Smart Road Estimator",
+    "slug": "smart-road-estimator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#1E3A8A"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.nhai.roadestimator"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1E3A8A"
+      },
+      "package": "com.nhai.roadestimator"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to analyze road conditions.",
+          "cameraPermission": "The app uses your camera to capture road damage images."
+        }
+      ],
+      "expo-asset"
+    ]
+  }
+}
